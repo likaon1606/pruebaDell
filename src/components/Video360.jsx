@@ -13,7 +13,7 @@ const Video360 = () => {
             loop
             crossOrigin='anonymous'
             controls
-            src='https://dellvirtualtourbrazil.blob.core.windows.net/videos/07_SECOND_TOUCH_IMAGE_TEST.mp4'
+            src='https://dellvirtualtourbrazil.blob.core.windows.net/videos/19_BOT_INSIDE.mp4'
           />
         </a-assets>
         <Entity primitive='a-videosphere' src='#video360' radius='5' />
