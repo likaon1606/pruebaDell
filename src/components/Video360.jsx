@@ -19,9 +19,9 @@ const Video360 = () => {
         <Entity
           primitive='a-video'
           src='#video360'
-          width='25' // Ajusta el ancho del video aquí
+          width='16' // Ajusta el ancho del video aquí
           height='9' // Ajusta la altura del video aquí
-          position='1 3 -4' // Ajusta la posición del video aquí
+          position='0 1.6 -4' // Ajusta la posición del video aquí
         />
         <Entity primitive='a-camera' position='0 1.6 0'>
           <Entity primitive='a-cursor' />
