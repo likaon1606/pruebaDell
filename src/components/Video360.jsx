@@ -4,7 +4,7 @@ import React from 'react';
 
 const Video360 = () => {
   return (
-    <div style={{ width: '500px', height: '500px', position: 'relative' }}>
+    <div style={{ width: '100%', height: '100vh', position: 'relative' }}>
       <Scene embedded style={{ width: '100%', height: '100%' }}>
         <a-assets>
           <video
@@ -16,14 +16,14 @@ const Video360 = () => {
             src='https://dellvirtualtourbrazil.blob.core.windows.net/videos/07_SECOND_TOUCH_IMAGE_TEST.mp4'
           />
         </a-assets>
-
         <Entity
-          primitive='a-videosphere'
+          primitive='a-video'
           src='#video360'
-          radius='5'
-          scale='0.5 0.5 0.5'
+          width='25' // Ajusta el ancho del video aquí
+          height='9' // Ajusta la altura del video aquí
+          position='1 3 -4' // Ajusta la posición del video aquí
         />
-        <Entity primitive='a-camera' position='0 0 0.1'>
+        <Entity primitive='a-camera' position='0 1.6 0'>
           <Entity primitive='a-cursor' />
         </Entity>
       </Scene>
